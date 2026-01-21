@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:5432/db_countries
+    username: countries_user
+    password: countriesPass123!
+
+logging:
+  level:
+    com.service.country: INFO
